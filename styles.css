@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the password input field */
+input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+label {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
